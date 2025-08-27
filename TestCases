@@ -5,3 +5,17 @@
 | TC03  | Favoriler sayfası görüntüleme        | Kullanıcı giriş yapmış olmalı                     | 1. Menüden "Favoriler" sayfasına git                                    | Favoriler listesi açılır ve eklenen ürün görünür                                           |
 | TC04  | Favoriler sayfası boşken görüntüleme | Kullanıcı giriş yapmış, favoriler boş             | 1. Favoriler sayfasına git                                              | "Henüz favori ürününüz yok" mesajı görünür                                                 |
 | TC05  | Giriş yapmadan favorilere ekleme     | Kullanıcı giriş yapmamış                          | 1. Bir ürün detay sayfasına git <br>2. "Favorilere Ekle" butonuna tıkla | "Favorilere eklemek için giriş yapmalısınız" mesajı çıkar ve giriş sayfasına yönlendirilir |
+
+
+## Önceliklendirme (Prioritization)
+
+* Yüksek Öncelik (High Priority):
+  - TC01 (Favorilere ekleme)
+  - TC05 (Giriş yapmadan favorilere ekleme)
+
+* Orta Öncelik (Medium Priority):
+  - TC02 (Favorilerden çıkarma)
+  - TC03 (Favoriler sayfası görüntüleme)
+
+* Düşük Öncelik (Low Priority):
+  - TC04 (Favoriler sayfası boşken görüntüleme)
