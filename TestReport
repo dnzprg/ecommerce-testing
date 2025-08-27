@@ -1,0 +1,33 @@
+# Test Raporu – Favorilere Ekle Özelliği
+
+| TC ID | Sonuç                                                                           | Durum      |
+| ----- | ------------------------------------------------------------------------------- | ---------- |
+| TC01  | Ürün favorilere başarıyla eklendi, mesaj çıktı                                  | **Passed** |
+| TC02  | Ürün favorilerden çıkarıldı ama mesaj çıkmadı                                   | **Failed** |
+| TC03  | Favoriler sayfasında ürün listelendi                                            | **Passed** |
+| TC04  | Boş favorilerde doğru mesaj çıktı                                               | **Passed** |
+| TC05  | Giriş yapmadan favorilere eklemeye çalışıldığında login sayfasına yönlendirildi | **Passed** |
+
+
+## Bulunan Hatalar
+- **Bug ID:** BUG-001  
+- **Başlık:** Ürün favorilerden çıkarıldığında bilgilendirme mesajı görüntülenmiyor
+- **Adımlar:**  
+  1. Giriş yapmış kullanıcı olarak ürünü favorilere ekle  
+  2. Aynı ürünü tekrar "Favorilere Ekle" butonuna tıkla  
+- **Beklenen:** "Ürün favorilerinizden çıkarıldı" mesajı çıkmalı  
+- **Gerçek:** Ürün favorilerden siliniyor ama mesaj çıkmıyor  
+- **Durum:** Açık  
+- **Öncelik:** Orta  
+
+
+## Genel Test Özeti
+- **Toplam Senaryo:** 5  
+- **Koşulan Senaryo:** 5  
+- **Başarılı:** 4  
+- **Başarısız:** 1  
+- **Başarı Oranı:** %80  
+- **Bulunan Hata Sayısı:** 1  
+
+**Sonuç:**  
+Favorilere ekleme özelliği kritik işlevlerde çalışmaktadır. Ancak kullanıcı deneyimini etkileyen bilgilendirme mesajı hatası vardır.
